@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_6647_Logowanie_przez_CSV</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>0f4d188d-1aa5-4ab1-9320-7f792abf3b7c</testSuiteGuid>
+   <testCaseLink>
+      <guid>80be2516-2768-4e17-903b-945ca5f89ded</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TS_6647 Projekt/TC_6647_Logowanie_przez_CSV</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3154cbd2-c4a8-4d39-9684-c8077ab06fd5</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Test_data_6647/CSV_data_logowanie_6647</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>3154cbd2-c4a8-4d39-9684-c8077ab06fd5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Login</value>
+         <variableId>95f48238-8751-45a9-9011-c5cb1271fe89</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3154cbd2-c4a8-4d39-9684-c8077ab06fd5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>e9a2256c-c7af-4417-bbb2-cabdf7c75dfa</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

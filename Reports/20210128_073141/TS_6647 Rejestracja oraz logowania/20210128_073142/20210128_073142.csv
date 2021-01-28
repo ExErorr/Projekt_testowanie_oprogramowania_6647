@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_6647 Rejestracja oraz logowania,Chrome 87.0.4280.141,,,2021-01-28 07:31:47,2021-01-28 07:32:14,"26,709s",PASSED
+,,,,,,,
+Test Cases/TS_6647 Projekt/TC_6647_Rejestracja,Chrome 87.0.4280.141,,,2021-01-28 07:31:48,2021-01-28 07:31:57,"8,722s",PASSED
+"openBrowser("""")",Chrome 87.0.4280.141,,,2021-01-28 07:31:48,2021-01-28 07:31:52,"3,712s",PASSED
+"navigateToUrl(""https://www.raidbots.com/auth#create"")",Chrome 87.0.4280.141,,,2021-01-28 07:31:52,2021-01-28 07:31:53,"0,787s",PASSED
+"click(findTestObject(""Object Repository/Page_Login - Raidbots/a_Create an account""))",Chrome 87.0.4280.141,,,2021-01-28 07:31:53,2021-01-28 07:31:53,"0,494s",PASSED
+randomLogin = com.projekt.WebProjektFunkcje.generateRandomLogin(),Chrome 87.0.4280.141,,,2021-01-28 07:31:53,2021-01-28 07:31:53,"0,030s",PASSED
+"setText(findTestObject(""Object Repository/Page_Login - Raidbots/input_Username_newUsername""), randomLogin)",Chrome 87.0.4280.141,,,2021-01-28 07:31:53,2021-01-28 07:31:54,"0,740s",PASSED
+randomEmail = com.projekt.WebProjektFunkcje.generateRandomEmail(),Chrome 87.0.4280.141,,,2021-01-28 07:31:54,2021-01-28 07:31:54,"0,001s",PASSED
+"setText(findTestObject(""Object Repository/Page_Login - Raidbots/input_Email_newEmail""), randomEmail)",Chrome 87.0.4280.141,,,2021-01-28 07:31:54,2021-01-28 07:31:55,"0,628s",PASSED
+"setText(findTestObject(""Object Repository/Page_Login - Raidbots/input_Re-enter Email_emailConfirm""), randomEmail)",Chrome 87.0.4280.141,,,2021-01-28 07:31:55,2021-01-28 07:31:55,"0,646s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login - Raidbots/input_Password_newPassword""), ""JSidcItQWZUqbUYGu4zTiA=="")",Chrome 87.0.4280.141,,,2021-01-28 07:31:55,2021-01-28 07:31:56,"0,402s",PASSED
+"click(findTestObject(""Object Repository/Page_Login - Raidbots/div_I agree to the Raidbots Privacy Policy__09ee65""))",Chrome 87.0.4280.141,,,2021-01-28 07:31:56,2021-01-28 07:31:56,"0,309s",PASSED
+"click(findTestObject(""Page_Login - Raidbots/div_I agree to Raidbots processing my information outside of the EU_Checkbox_box""))",Chrome 87.0.4280.141,,,2021-01-28 07:31:56,2021-01-28 07:31:56,"0,307s",PASSED
+"click(findTestObject(""Object Repository/Page_Login - Raidbots/button_Create Account""))",Chrome 87.0.4280.141,,,2021-01-28 07:31:56,2021-01-28 07:31:57,"0,319s",PASSED
+,,,,,,,
+Test Cases/TS_6647 Projekt/TC_6647_Logowanie-Wylogowanie,Chrome 87.0.4280.141,,,2021-01-28 07:31:57,2021-01-28 07:32:08,"10,920s",PASSED
+"openBrowser("""")",Chrome 87.0.4280.141,,,2021-01-28 07:31:57,2021-01-28 07:32:00,"3,621s",PASSED
+"navigateToUrl(""https://www.raidbots.com/auth#create"")",Chrome 87.0.4280.141,,,2021-01-28 07:32:00,2021-01-28 07:32:01,"0,716s",PASSED
+"setText(findTestObject(""Object Repository/Page_Login - Raidbots/input_Email_email""), ""wodnik123456789@gmail.com"")",Chrome 87.0.4280.141,,,2021-01-28 07:32:01,2021-01-28 07:32:02,"0,730s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login - Raidbots/input_Password_password""), ""JSidcItQWZUqbUYGu4zTiA=="")",Chrome 87.0.4280.141,,,2021-01-28 07:32:02,2021-01-28 07:32:02,"0,360s",PASSED
+"click(findTestObject(""Object Repository/Page_Login - Raidbots/button_Login""))",Chrome 87.0.4280.141,,,2021-01-28 07:32:02,2021-01-28 07:32:03,"0,312s",PASSED
+"click(findTestObject(""Object Repository/Page_Raidbots - Optimize Your WoW Characters/div_sdfasadffsdafsdasadf_Box""))",Chrome 87.0.4280.141,,,2021-01-28 07:32:03,2021-01-28 07:32:07,"4,197s",PASSED
+"click(findTestObject(""Object Repository/Page_Raidbots - Optimize Your WoW Characters/a_Logout""))",Chrome 87.0.4280.141,,,2021-01-28 07:32:07,2021-01-28 07:32:08,"0,736s",PASSED
+,,,,,,,
+Test Cases/TS_6647 Projekt/TC_6647_Logowanie,Chrome 87.0.4280.141,,,2021-01-28 07:32:08,2021-01-28 07:32:14,"6,013s",PASSED
+"openBrowser("""")",Chrome 87.0.4280.141,,,2021-01-28 07:32:08,2021-01-28 07:32:11,"3,646s",PASSED
+"navigateToUrl(""https://www.raidbots.com/auth#create"")",Chrome 87.0.4280.141,,,2021-01-28 07:32:11,2021-01-28 07:32:12,"0,687s",PASSED
+"setText(findTestObject(""Object Repository/Page_Login - Raidbots/input_Email_email""), ""wodnik123456789@gmail.com"")",Chrome 87.0.4280.141,,,2021-01-28 07:32:12,2021-01-28 07:32:13,"0,739s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login - Raidbots/input_Password_password""), ""JSidcItQWZUqbUYGu4zTiA=="")",Chrome 87.0.4280.141,,,2021-01-28 07:32:13,2021-01-28 07:32:13,"0,358s",PASSED
+"click(findTestObject(""Object Repository/Page_Login - Raidbots/button_Login""))",Chrome 87.0.4280.141,,,2021-01-28 07:32:13,2021-01-28 07:32:14,"0,331s",PASSED
